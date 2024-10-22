@@ -12,7 +12,7 @@ for (let i = 0; i <= random; i++) {
 }
 ```
 
-this is the selection part of the algorithm, where
+this is the selection part of the algorithm, where the variable i is checked against numbers to define other variables using if statements.
 
 ```javascript
 if (i % 3 == 0) {
@@ -24,7 +24,7 @@ if (i % 3 == 0) {
 }
 ```
 
-this is the iteration part of the algorithm
+this is the iteration part of the algorithm, where the amount of times the algorithm runs is set
 
 ```javascript
 for (let i = 0; i <= random; i++)
