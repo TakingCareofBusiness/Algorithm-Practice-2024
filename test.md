@@ -1,4 +1,4 @@
-this is the algorithm
+this is the algorithm within the function rockPaperScissors in Kenneth.js
 
 ```javascript
 for (let i = 0; i <= random; i++) {
@@ -12,7 +12,7 @@ for (let i = 0; i <= random; i++) {
 }
 ```
 
-this is the selection
+this is the selection part of the algorithm, where
 
 ```javascript
 if (i % 3 == 0) {
@@ -24,7 +24,7 @@ if (i % 3 == 0) {
 }
 ```
 
-this is the iteration
+this is the iteration part of the algorithm
 
 ```javascript
 for (let i = 0; i <= random; i++)
