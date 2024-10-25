@@ -11,15 +11,28 @@ function binaryToDecimal(n) {
   console.log(answer);
 }
 let n = "1011";
-binaryToDecimal(n);
 //accept the number, check if you can subtract 126, check if you can subtract 64, yadda yadda, for every yes print 1 every no print 0.
 function decimalToBinary(o) {
-  let x = 2;
-  let answer = [];
+  let answer = "";
   let y = o;
-  while ()
-}
-
+  let go = 0;
+    while (y > 2) {
+      if ((y % 2 === 0 ) && (go > 0)); {
+        answer = answer + "0";
+      } else {
+        answer = answer + "1";
+      }
+      y = Math.floor(y / 2);
+    }
+    if (o % 2 === 0) {
+      answer = answer + "0";
+    } else {
+      answer = answer + "1";
+    }
+    console.log(answer);
+  }
+let o = 30;
+decimalToBinary(o);
 //11/2 -> 5 `1
 //5/2 2  1
 //2   0   0
